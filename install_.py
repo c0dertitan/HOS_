@@ -1,6 +1,9 @@
 #!/usr/bin/python
 
-ques1 = input("Would you like to wipe computer and install HOS? Y/n \n")
+hos = input("What command would you like to run? If you need to type 'help' for more commands.")
 
-if ques1 == "Yes" or "yes" or ques1 == "y" or ques1 == "Y":
-  
+if hos == "help":
+  print("exit() -- Stops running HOS
+say <Variable or string> -- Prints a string or variable.
+run <BashScript> -- Runs a .sh script
+<name of varible>=<value of variable> -- makes a variable")
