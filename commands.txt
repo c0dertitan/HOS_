@@ -1,0 +1,6 @@
+exit() -- Stops running HOS
+say <Variable or string> -- Prints a string or variable.
+run <BashScript> -- Runs a .sh script
+<name of varible>=<value of variable> -- makes a variable
+
+
